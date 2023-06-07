@@ -1,4 +1,4 @@
-# Data Science (Web Scrapping)
+# Data Science 
 
 ## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python
 
