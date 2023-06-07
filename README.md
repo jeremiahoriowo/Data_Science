@@ -1,7 +1,7 @@
-# Data Science 
+<h1>Data Science</h1>
 
 <details>
-        <summary><h1> An Introduction to Web Scraping with yfinance and Beautiful Soup in Python</h1></summary>
+        <summary><h3> An Introduction to Web Scraping with yfinance and Beautiful Soup in Python</h3></summary>
 <br>
         
 ### Introduction:
