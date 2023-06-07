@@ -3,8 +3,7 @@
 <details>
 <summary>## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python</summary>
 <br>
-## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python
-
+        
 ### Introduction:
 Web scraping is a powerful technique that allows us to extract data from websites. In Python, two popular libraries, yfinance and Beautiful Soup, provide an efficient and straightforward way to perform web scraping and extract financial data. This article serves as an introduction to using yfinance and Beautiful Soup for web scraping in Python, enabling you to harness the power of these libraries to gather valuable financial information.
 
