@@ -5,7 +5,7 @@
 <br>
         
 ### Introduction:
-Web scraping is a powerful technique that allows us to extract data from websites. In Python, two popular libraries, yfinance and Beautiful Soup, provide an efficient and straightforward way to perform web scraping and extract financial data. This article serves as an introduction to using yfinance and Beautiful Soup for web scraping in Python, enabling you to harness the power of these libraries to gather valuable financial information.
+Web scraping is a powerful technique that allows us to extract data from websites. In Python, two popular libraries, yfinance and Beautiful Soup, provide an efficient and straightforward way to perform web scraping and extract financial data. This documentation serves as an introduction to using yfinance and Beautiful Soup for web scraping in Python, enabling you to harness the power of these libraries to gather valuable financial information.
 
 ### What is yfinance?
 yfinance is a Python library that provides a simple and convenient interface for downloading historical stock data from Yahoo Finance. With yfinance, you can access a wide range of financial data, including historical stock prices, dividend information, and much more. It allows you to specify the ticker symbol of the stock and the desired date range to retrieve the data. This library simplifies the process of accessing financial data, making it an essential tool for data analysis and research in the finance domain.
