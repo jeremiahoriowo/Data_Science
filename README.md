@@ -24,40 +24,40 @@ To begin using yfinance, import the library into your Python script:
 
 Now, you can specify the ticker symbol and date range to download the historical stock data. Here's an example:
 
-#### Define the ticker symbol and date range`
+#### Define the ticker symbol and date range
 `symbol = "AAPL"`
 `start_date = "2023-01-01"`
 `end_date = "2023-06-01"`
 
-### Download the historical stock data
-data = yf.download(symbol, start=start_date, end=end_date)
+#### Download the historical stock data
+`data = yf.download(symbol, start=start_date, end=end_date)`
 
-# Print the retrieved data
-print(data)`
+#### Print the retrieved data
+`print(data)`
 
 By running this code, you can retrieve the historical stock data for the specified ticker symbol and date range.
 
 ### Introduction to Beautiful Soup for Web Scraping:
 To utilize Beautiful Soup for web scraping, import the library into your Python script:
-`
-from bs4 import BeautifulSoup
+
+`from bs4 import BeautifulSoup
 import requests
 `
 
 With Beautiful Soup, you can send an HTTP request to a web page, parse the HTML content, and extract the desired data. Here's an example that extracts the title of a web page:
 
-`
-# Send an HTTP request to the web page
-url = "https://www.example.com"
-response = requests.get(url)
 
-# Parse the HTML using Beautiful Soup
-soup = BeautifulSoup(response.text, "html.parser")
+#### Send an HTTP request to the web page
+`url = "https://www.example.com"
+response = requests.get(url)`
 
-# Extract the title of the web page
-title = soup.title.string
+#### Parse the HTML using Beautiful Soup
+`soup = BeautifulSoup(response.text, "html.parser")`
 
-# Print the extracted title
-print(title)
+#### Extract the title of the web page
+`title = soup.title.string`
+
+#### Print the extracted title
+`print(title)
 `
 In this example, Beautiful Soup parses the HTML content of the web page and extracts the title tag's contents.
