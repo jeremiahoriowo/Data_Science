@@ -1,5 +1,8 @@
 # Data Science 
 
+details>
+<summary>## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python</summary>
+<br>
 ## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python
 
 ### Introduction:
@@ -62,3 +65,5 @@ With Beautiful Soup, you can send an HTTP request to a web page, parse the HTML 
 
 
 In this example, Beautiful Soup parses the HTML content of the web page and extracts the title tag's contents.
+</details>
+
