@@ -23,12 +23,13 @@ To begin using yfinance, import the library into your Python script:
 `import yfinance as yf`
 
 Now, you can specify the ticker symbol and date range to download the historical stock data. Here's an example:
+
 `# Define the ticker symbol and date range`
 `symbol = "AAPL"`
 `start_date = "2023-01-01"`
-end_date = "2023-06-01"
+`end_date = "2023-06-01"`
 
-#Download the historical stock data
+### Download the historical stock data
 data = yf.download(symbol, start=start_date, end=end_date)
 
 # Print the retrieved data
