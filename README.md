@@ -1,6 +1,6 @@
 # Data Science 
 
-details>
+<details>
 <summary>## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python</summary>
 <br>
 ## An Introduction to Web Scraping with yfinance and Beautiful Soup in Python
