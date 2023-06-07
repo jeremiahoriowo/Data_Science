@@ -40,9 +40,9 @@ By running this code, you can retrieve the historical stock data for the specifi
 ### Introduction to Beautiful Soup for Web Scraping:
 To utilize Beautiful Soup for web scraping, import the library into your Python script:
 
-`from bs4 import BeautifulSoup
-import requests
-`
+        from bs4 import BeautifulSoup
+        import requests
+
 
 With Beautiful Soup, you can send an HTTP request to a web page, parse the HTML content, and extract the desired data. Here's an example that extracts the title of a web page:
 
