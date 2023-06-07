@@ -47,18 +47,18 @@ import requests
 With Beautiful Soup, you can send an HTTP request to a web page, parse the HTML content, and extract the desired data. Here's an example that extracts the title of a web page:
 
 
-#### Send an HTTP request to the web page
-`url = "https://www.example.com"
-response = requests.get(url)`
+        # Send an HTTP request to the web page
+        url = "https://www.example.com"
+        response = requests.get(url)
 
-#### Parse the HTML using Beautiful Soup
-`soup = BeautifulSoup(response.text, "html.parser")`
+        # Parse the HTML using Beautiful Soup
+        soup = BeautifulSoup(response.text, "html.parser")
 
-#### Extract the title of the web page
-`title = soup.title.string`
+        # Extract the title of the web page
+        title = soup.title.string
 
-#### Print the extracted title
-`print(title)
-`
+        # Print the extracted title
+        print(title)
+
 
 In this example, Beautiful Soup parses the HTML content of the web page and extracts the title tag's contents.
