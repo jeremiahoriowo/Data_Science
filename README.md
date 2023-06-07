@@ -60,4 +60,5 @@ response = requests.get(url)`
 #### Print the extracted title
 `print(title)
 `
+
 In this example, Beautiful Soup parses the HTML content of the web page and extracts the title tag's contents.
