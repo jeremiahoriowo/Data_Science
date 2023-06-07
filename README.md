@@ -14,8 +14,8 @@ Beautiful Soup is a Python library used for web scraping and parsing HTML and XM
 ### Installing yfinance and Beautiful Soup:
 Before getting started, ensure that you have Python installed on your system. To install yfinance and Beautiful Soup, open a terminal or command prompt and execute the following commands:
 
-        `pip install yfinance
-        pip install beautifulsoup4`
+        pip install yfinance
+        pip install beautifulsoup4
 
 ### Using yfinance to Download Financial Data:
 To begin using yfinance, import the library into your Python script:
